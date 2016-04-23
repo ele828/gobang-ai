@@ -1,4 +1,4 @@
-react-gobang-AI
+Gobang-AI
 ============
 
 ![game.png](https://raw.githubusercontent.com/wangzuo/react-gobang/gh-pages/game.png)
