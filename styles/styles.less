@@ -1,0 +1,56 @@
+@grey: #999;
+@black: #333;
+@white: #fff;
+
+* {
+  box-sizing: border-box;
+}
+
+.m-gobang {
+  position: relative;
+}
+
+.m-boxes {
+  position: absolute;
+
+  .box {
+    position: absolute;
+    z-index: 10;
+    padding: 1.8px;
+
+    .white, .black {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+
+    .white {
+      background-color: @white;
+      border: 1px solid @black;
+    }
+
+    .black {
+      background-color: @black;
+      border: 1px solid @black;
+    }
+  }
+}
+
+.m-grid {
+  position: absolute;
+  box-sizing: content-box;
+  border-top: 1px solid @grey;
+  border-left: 1px solid @grey;
+
+  .box {
+    position: absolute;
+    border-right: 1px solid @grey;
+    border-bottom: 1px solid @grey;
+  }
+}
+
+.m-info {
+  position: fixed;
+  top: 20px;
+  right: 0;
+}
