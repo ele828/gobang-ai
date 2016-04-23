@@ -24,6 +24,13 @@ Run index.html
 
 ### Development
 
+Dependencies Installation
+```
+npm install
+```
+
+Code Packaging: 
+
 ```
 gulp scripts
 ```
